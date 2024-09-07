@@ -1,0 +1,31 @@
+.section {
+    position: relative;
+    border-bottom: .1rem solid $light-grey;
+    
+    &__center {
+        @include absCenter;
+        
+        &__S { min-width: 90rem; }
+        
+        &__L { min-width: 120rem; }
+    }
+
+    &__img {
+        margin: 0 auto;
+        background-image: url(../img/nat-6.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 85%;
+        height: 38rem;
+        box-shadow: 0 1.5rem 3rem rgba($black, .6);
+    }
+    
+    &__single { height: 100vh; }
+    &__full { height: 120vh; }
+    &__view-counter {
+        &__error {
+            color: $red;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.header {
+    height: 100vh;
+    position: relative;
+    border-bottom: .1rem solid $light-grey;
+
+    &__summary {
+        width: 100%;
+        padding: 1rem;
+        @include absCenter;
+    }
+
+    &__img {
+        margin: 0 auto;
+        background-image: url(../img/nat-6.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 85%;
+        height: 38rem;
+        box-shadow: 0 1.5rem 3rem rgba($black, .6);
+    }
+}
+

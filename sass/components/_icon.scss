@@ -1,0 +1,14 @@
+.icon {
+
+    &__small { font-size: 2rem; }
+
+    &__big { font-size: 4rem; }
+
+    &__hover {
+
+        &:hover {
+            color: $theme-primary-dark !important;
+            cursor: pointer;
+        }
+    }
+}
